@@ -24,7 +24,7 @@ export const insertTodo = (data, result) => {
 
 
 export const updateTodoById = (data, id, result) => {
-    db.query("UPDATE INTO todo SET title = ?, status = ? WHERE id = ?", [data.title, data.status, id], (err, results) => {
+    db.query("UPDATE todo SET title = ?, status = ? WHERE id = ?", [data.title, data.status, id], (err, results) => {
         if (err) {
             console.log(err);
             result(err,null);

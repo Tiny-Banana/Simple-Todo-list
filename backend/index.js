@@ -9,5 +9,5 @@ app.use(cors());
 app.use(Router);
 
 app.listen(5000, () => {
-    console.log("Server running");
+    console.log("Listening on port 5000");
 })
