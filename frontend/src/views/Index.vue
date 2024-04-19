@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="flex justify-center items-center h-screen">
       <Todolist/>
     </div>
   </template>
